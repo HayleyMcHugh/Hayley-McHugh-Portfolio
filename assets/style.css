@@ -1,13 +1,10 @@
 body {background-color: lavender}
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: pink;
+.header {
+    background-color: pink;
 }
 
 li {
     display: inline;
+    text-align: right;
 }
