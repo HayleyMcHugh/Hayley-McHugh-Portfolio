@@ -2,6 +2,7 @@ body {background-color: lavender}
 
 .header {
     background-color: pink;
+    padding: 14px;
 }
 
 li {
