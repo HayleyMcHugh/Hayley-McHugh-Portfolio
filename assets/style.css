@@ -2,15 +2,19 @@ body {background-color: lavender}
 
 .header {
     background-color: pink;
-    padding: 14px;
+    padding: 10px;
+    margin-top: 30px;
 }
 
 #myname {
     font-size: 50px;
+    color: white;
 }
 
-li {
-    display: inline;
+nav ul li {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
     color: white;
 }
 
@@ -19,4 +23,18 @@ li {
     justify-content: flex-end;
 }
 
+.card {
+    border: 2px solid blueviolet;
+    flex: 1 40%;
+    position: relative;
+    margin: 7px;
+    padding: 0px;
+    opacity: 0.70;
+}
 
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
