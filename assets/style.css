@@ -2,7 +2,7 @@ body {background-color: lavender}
 
 .header {
     display: flex;
-    flex-wrap: wrap;
+    flex: 100%;
     justify-content: center;
     background-color: pink;
     padding: 5px;
@@ -10,45 +10,39 @@ body {background-color: lavender}
 }
 
 #myname {
+    display: flex;
+    flex: 50%;
     font-size: 50px;
     color: white;
-}
-
-nav ul li {
-    display: flex;
-    color: white;
+    justify-content: center;
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
-    padding-right: 40px;
+    flex: 50%;
+    padding: 25px 40px; 
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 15px;
 }
 
 .main-container {
-    max-width: 85%;
-    margin-right: auto;
-    margin-left: auto;
+   margin: 0% 8%;
 }
 
 .aboutme {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
     border-right: 3px;
-}
-
-.aboutme > h2 {
-    /* flex-basis: 100%; */
-    padding-right: 20px;
-    border-right: 3px;
-    flex: 0 0 30px;
-}
-
-#paragraph {
-    flex: 0 0 70;
 }
 
 .grid-card {
@@ -76,4 +70,9 @@ nav {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+}
+
+.test {
+    display: flex;
+    display: inline-flex;
 }
