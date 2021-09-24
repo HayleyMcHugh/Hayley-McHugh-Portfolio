@@ -44,6 +44,23 @@ main {
     flex-wrap: wrap;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+    min-width: 100px;
+    border-right: 5px solid red;
+    padding: 20px;
+}
+
 .card-main {
     flex: 100%;
     padding: 20px;
@@ -54,16 +71,6 @@ main {
     opacity: 70%;
     max-width: 250px;
     flex: 50%;
-    padding: 20px;
-}
-
-.about-me {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-size: 20px;
-    min-width: 100px;
-    border-right: 5px solid red;
     padding: 20px;
 }
 
@@ -85,12 +92,9 @@ main {
     padding-left: 20px;
 }
 
-.about {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.parent {
-    display: flex;
-    flex-wrap: wrap;
+.grid-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px; 
+    width: 250px; 
 }
