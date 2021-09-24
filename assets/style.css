@@ -45,21 +45,16 @@ main {
 }
 
 .card-main {
-   flex: 1 0 200px;
-   padding: 10px;
-   text-align: center;
-   border-style: solid;
-   border-width: 1px;
+    flex: 100%;
+    padding: 20px;
 }
 
 .card {
-    flex: 1 0 200px;
-    flex-wrap: wrap;
-    border: 2px solid blueviolet;
-    text-align: center;
-    margin: 7px;
     padding: 0px;
     opacity: 70%;
+    max-width: 250px;
+    flex: 50%;
+    padding: 20px;
 }
 
 .about-me {
@@ -70,6 +65,12 @@ main {
     min-width: 100px;
     border-right: 5px solid red;
     padding: 20px;
+}
+
+.contact {
+    display: flex;
+    flex: 100%;
+    justify-content: space-evenly;
 }
 
 .contact ul {
@@ -88,3 +89,10 @@ main {
     display: flex;
     flex-wrap: wrap;
 }
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
