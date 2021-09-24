@@ -32,15 +32,33 @@ nav a {
     padding: 0px 15px;
 }
 
-.main {
-   margin: 0% 8%;
+main {
+   display: inline;
+}
+
+#aboutme {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    border-left: 5px solid blueviolet;
+}
+
+.card-main {
+   flex: 1 0 200px;
+   padding: 10px;
+   text-align: center;
+   border-style: solid;
+   border-width: 1px;
 }
 
 .card {
+    flex: 1 0 200px;
+    flex-wrap: wrap;
     border: 2px solid red;
-    flex: 1 40%;
-    position: relative;
+    text-align: center;
     margin: 7px;
     padding: 0px;
-    opacity: 0.70;
+    opacity: 70%;
 }
