@@ -36,13 +36,19 @@ nav a {
    margin: 0% 8%;
 }
 
+#test {
+   float: left;
+   border-right: 5px solid brown;
+   min-width: 150px;
+}
+
 .aboutme {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-items: stretch;
-    justify-content: space-between;
-    border-right: 3px;
+    align-items: flex-end;
+    font-size: 15px;
+    min-width: 200px;
+    padding: 20px;
 }
 
 .grid-card {
@@ -57,7 +63,7 @@ nav a {
 }
 
 .card {
-    border: 2px solid blueviolet;
+    border: 2px solid blue;
     flex: 1 40%;
     position: relative;
     margin: 7px;
@@ -70,9 +76,4 @@ nav a {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-}
-
-.test {
-    display: flex;
-    display: inline-flex;
 }
