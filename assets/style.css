@@ -23,6 +23,11 @@ nav ul li {
     justify-content: flex-end;
 }
 
+.card-feature {
+    display: flex;
+    flex-direction: column;
+}
+
 .card {
     border: 2px solid blueviolet;
     flex: 1 40%;
