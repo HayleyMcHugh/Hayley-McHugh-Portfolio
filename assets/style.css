@@ -36,13 +36,12 @@ main {
    display: inline;
 }
 
+
+
+
 #aboutme {
     display: flex;
     flex-wrap: wrap;
-}
-
-h2 {
-    border-left: 5px solid blueviolet;
 }
 
 .card-main {
@@ -56,9 +55,36 @@ h2 {
 .card {
     flex: 1 0 200px;
     flex-wrap: wrap;
-    border: 2px solid red;
+    border: 2px solid blueviolet;
     text-align: center;
     margin: 7px;
     padding: 0px;
     opacity: 70%;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+    min-width: 100px;
+    border-right: 5px solid red;
+    padding: 20px;
+}
+
+.contact ul {
+    display: flex;
+    flex: 100%;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+
+.contact ul>*{
+    display: inline-flex;
+    padding-left: 20px;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
 }
