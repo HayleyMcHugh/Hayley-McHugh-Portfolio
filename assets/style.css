@@ -1,9 +1,12 @@
 body {background-color: lavender}
 
 .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: pink;
-    padding: 10px;
-    margin-top: 30px;
+    padding: 5px;
+    margin-top: 20px;
 }
 
 #myname {
@@ -13,19 +16,50 @@ body {background-color: lavender}
 
 nav ul li {
     display: flex;
-    justify-content: flex-end;
-    justify-content: space-around;
     color: white;
 }
 
-.navbar {
+nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+
+.main-container {
+    max-width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    border-right: 3px;
+}
+
+.aboutme > h2 {
+    /* flex-basis: 100%; */
+    padding-right: 20px;
+    border-right: 3px;
+    flex: 0 0 30px;
+}
+
+#paragraph {
+    flex: 0 0 70;
+}
+
+.grid-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .card-feature {
-    display: flex;
-    flex-direction: column;
+    min-height: 500px;
+    flex-basis: 100%;
 }
 
 .card {
