@@ -36,44 +36,11 @@ nav a {
    margin: 0% 8%;
 }
 
-#test {
-   float: left;
-   border-right: 5px solid brown;
-   min-width: 150px;
-}
-
-.aboutme {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    font-size: 15px;
-    min-width: 200px;
-    padding: 20px;
-}
-
-.grid-card {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.card-feature {
-    min-height: 500px;
-    flex-basis: 100%;
-}
-
 .card {
-    border: 2px solid blue;
+    border: 2px solid red;
     flex: 1 40%;
     position: relative;
     margin: 7px;
     padding: 0px;
     opacity: 0.70;
-}
-
-.contact {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
 }
