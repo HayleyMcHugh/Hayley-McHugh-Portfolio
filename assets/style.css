@@ -36,12 +36,13 @@ main {
    display: inline;
 }
 
+/* --------------------------- */
 
 
-
-#aboutme {
-    display: flex;
-    flex-wrap: wrap;
+p {
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 50px;
 }
 
 .container {
@@ -53,12 +54,12 @@ main {
 
 .container2 {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: space-between;
     font-size: 20px;
     min-width: 100px;
-    border-right: 5px solid red;
+    border-right: 5px solid white;
     padding: 20px;
+    padding-top: 20px;
 }
 
 .card-main {
@@ -93,8 +94,7 @@ main {
 }
 
 .grid-card {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 20px; 
-    width: 250px; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
