@@ -2,9 +2,9 @@
     --padding: 5%;
 }
 
-
 body {
-    background-color: lavender;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 .header {
@@ -14,6 +14,7 @@ body {
     background-color: pink;
     padding: 5px;
     margin-top: 20px;
+    border-radius: 20px;
 }
 
 #myname {
@@ -44,9 +45,6 @@ main {
    flex-direction: column;
    margin: 0% 15%;
 }
-
-/* --------------------------- */
-
 
 .paragraph1 {
     display: flex;
@@ -99,7 +97,7 @@ main {
 .card-main {
     flex: 1 1 100%;
     opacity: 70%; 
-    padding-left: var(--padding);
+    padding: 2% 0% 2% var(--padding);
     position: relative;
 }
 
@@ -109,7 +107,7 @@ main {
     justify-content: center;
     opacity: 70%;
     flex: 44%;
-    padding-left: var(--padding);
+    padding: 2% 0% 2% var(--padding);
     position: relative;
 }
 
@@ -159,6 +157,11 @@ h3 {
     left: 10%;
 }
 
+footer {
+    font-size: 12px;
+    text-align: center;
+}
+
 @media screen and (max-width: 992px) {
     main {
         margin: 0% 0%;
@@ -167,6 +170,18 @@ h3 {
         font-size: 25px;
     }
     nav a {
-        font-size: 20px;
+        font-size: 15px;
+    }
+    .contact ul {
+        font-size: 10px;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        opacity: 70%;
+        flex: 1 1 100%;
+        padding-left: var(--padding);
+        position: relative;
     }
 }
