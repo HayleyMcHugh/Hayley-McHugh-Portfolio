@@ -30,7 +30,7 @@ body {
 #myname img {
     height: 150px;
     width: 150px;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 0% 2%;
 }
 
@@ -75,36 +75,6 @@ main {
     border-right: 5px solid white;
     padding: 20px;
     margin: 2% 0%;
-}
-
-.contact {
-    display: flex;
-    flex: 100%;
-    justify-content: space-evenly;
-}
-
-a {
-    color: black;
-    text-decoration: none;
-}
-
-a:hover {
-    color: white;
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.contact ul {
-    display: flex;
-    align-items: center;
-    flex: 100%;
-    justify-content: space-evenly;
-    font-size: 15px;
-}
-
-.contact ul>*{
-    display: inline-flex;
-    padding-left: 20px;
 }
 
 .grid-card {
@@ -177,6 +147,36 @@ h3 {
     bottom: 0px;
     left: 10%;
     border-radius: 5px;
+}
+
+.contact {
+    display: flex;
+    flex: 100%;
+    justify-content: space-evenly;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.contact ul {
+    display: flex;
+    align-items: center;
+    flex: 100%;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+
+.contact ul>*{
+    display: inline-flex;
+    padding-left: 20px;
 }
 
 footer {
